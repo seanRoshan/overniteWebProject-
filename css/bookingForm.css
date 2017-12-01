@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	font-family: montserrat, arial, verdana;
+	background-color: white;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #111;
+}
+
+img.head_logo {
+    width: 50px;
+    display: inline;
+    margin-left: 12px;
+    float: left;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.fstab { 
+    overflow: auto;
+    padding: 20px;
+    border: 1px;
+    /*background-color: white;*/
+    top: auto;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    /*float: left;*/
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-right: 5%;
+    position: absolute;
+} 
+
+.fstab:not(:first-of-type) {
+	display: none;
+}
+.fs-title { 
+    float: center;
+    /*width: 100%;*/
+    /*text-transform: uppercase;*/
+    font-size: 25px;
+} 
+
+.sidetab { 
+    clear: both;
+    overflow: auto;
+    position: relative;
+    color: darkgrey;
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 3px;
+    background-color: white;
+    top: auto;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    float: right;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 5%;
+} 
+
+ul { 
+    list-style: none;
+    text-align: left;
+    font-size: 17px;
+} 
+
+.a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: -1px;
+    color: darkgrey;
+    border-radius: 3px;
+} 
+
+.houseRules{ 
+    color: darkgrey;
+    margin: 30px;
+    /*width: 100%;*/
+    display: inline;
+    text-align: left;
+    /*float: left;*/
+    /*padding: ;*/
+} 
+
+.tab-title {
+	font-size: 15px;
+	/*text-transform: uppercase;*/
+	color: #2C3E50;
+	font-family: montserrat;
+	margin-bottom: 10px;
+	float: left;
+	text-align: left;
+}
+
+.tab-subtitle { 
+    font-size: 11px;
+    clear: both;
+    display:inline-block;
+    text-align: left;
+} 
+
+.fs-subtext {
+	font-size: 15px;
+	color: #2C3E50;
+	margin-bottom: 1px;
+	text-align: left;
+}
+
+.fs-subtitle { 
+    font-size: 15px;
+    float: left;
+    text-align: left;
+    width: 100%; 
+    /*text-transform: uppercase;*/
+} 
+
+label, .totalPrice { 
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    /*margin-bottom: 5px;*/
+    position: relative;
+} 
+
+.price { 
+    font-size: 15px;
+    /*margin-bottom: 5px;*/
+    font-weight: bold;
+    text-align: right;
+    margin-top: -1%;
+}
+
+.text { 
+    color: darkgrey;
+    font-size: 15px;
+    text-align:left;
+} 
+
+.total { 
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    font-size: 19px;
+} 
+
+.action-button {
+	width: 150px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	float: left;
+	text-align: center;
+	margin-top: 10%;
+	position: relative;
+}
+
+.fs-dropbox { 
+    float: left;
+    text-align: left;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 1000px;
+    font-family: montserrat;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} 
+
+textarea, input[type='text'] {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+.action-button:hover, .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+#firstName { 
+    float: left;
+    width: 48%;
+    text-align: left;
+} 
+
+#lastName { 
+    float: right;
+    width: 48%;
+    text-align:left;
+} 
+
+#expDate { 
+    width: 50%;
+    clear: both;
+    float: left;
+    margin-top: -10px;
+} 
+
+#cvv { 
+    width: 50%;
+    float: right;
+    margin-top: -10px;
+} 
+
+#cancelInfo { 
+    font-size: 12px;
+    text-align: left;
+} 
+
+#agreement { 
+    font-size: 9px;
+    text-align: left;
+    margin-top: 20px;
+} 
+
+.div-toggle { 
+    clear: both;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-right: 1000px;
+    font-family: montserrat;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} 
+
+.hide { 
+    display: none;
+} 
+
+#tabTop { 
+    height: 120px;
+    margin-bottom: -14px;
+} 
+
+#tabTopLeft { 
+    width: 50%;
+    float: left;
+    text-align: left;
+    /*height: 125px;*/
+} 
+
+#tabImage { 
+    margin-top: 15px;
+    float: right;
+    width: 40%;
+    /*top: auto;*/
+}
+
+.locationPic { 
+    width: 100%;
+    height: 90%;
+    margin-top: -10%;
+} 
+
+#checkInDate, #checkOutDate {
+    width: 40%;
+    display: inline;
+    /*float: left;*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+} 

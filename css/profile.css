@@ -1,0 +1,140 @@
+.showmoreBtn {
+    background-color: #61E1B6;
+    border: none;
+    width: auto;
+    clear: both;
+    float: right;
+    cursor: pointer;
+    margin-right: 18%;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+}
+
+.showmoreBtn2 {
+    background-color: #61E1B6;
+    border: none;
+    width: auto;
+    clear: both;
+    float: right;
+    cursor: pointer;
+    margin-right: 18%;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin-bottom: 5%;
+}
+
+.contactBtn {
+    background-color: #61E1B6;
+    border: none;
+    width: auto;
+    clear: both;
+    float: left;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+img.avatar {
+    float: left;
+    width: 80%;
+    height: 30%;
+}
+
+.avatar_contact {
+    float: left;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+
+div.name_location {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-top: 7%;
+}
+
+div.profile_description {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+img.head_logo {
+    width: 50px;
+    display: inline;
+    float: left;
+}
+
+div.listings_container {
+    float: left;
+    height: 40%;
+    width: 24%;
+    margin-right: 3%;
+    padding-bottom: 60px;
+    display: none;
+}
+
+div.listings_container img {
+    float: left;
+    width: 100%;
+    height: 80%;
+    border-radius: 3px;
+}
+
+div.listing_desc {
+    clear: both;
+    width: 100%;
+    height: 33%;
+    float: left;
+    text-align: left;
+    overflow: auto;
+    padding-top: 5px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 17px;
+}
+
+.cost {
+    font-size: 17px;
+}
+
+.heading {
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-left: 20%;
+}
+
+.reviews {
+}
+
+.reviews .indv_rev {
+    overflow: auto;
+    display: none;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+
+.rev_avatar {
+    width: 40px;
+    height: 45px;
+    border-radius: 100%;
+    display: inline-block;
+    float: left;
+}
+
+body {
+    color: gray;
+}

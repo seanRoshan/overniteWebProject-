@@ -1,0 +1,210 @@
+.chat {
+    clear: both;
+    border-radius: 0px;
+    background-color: #8F8FBC;
+    opacity: 0.8;
+    word-wrap: break-word;
+    float: right;
+    max-width: 50%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.other {
+    clear: both;
+    border-radius: 0px;
+    background-color: lightgray;
+    word-wrap: break-word;
+    float: left;
+    max-width: 50%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.outer {
+    margin-top: 7%;
+    margin-bottom: 3%;
+    width: 30%;
+    margin-left: 35%;
+    border-style: none;
+    -webkit-box-shadow: 0 0 6px #8F8FBC;
+	-moz-box-shadow: 0 0 6px #8F8FBC;
+	box-shadow: 0 0 6px #8F8FBC;
+}
+
+.title {
+    background-color: lightgrey;
+    padding: 1px;
+    border-bottom: solid thick lightgrey;
+
+}
+
+a {
+    text-decoration: none;
+    width:75%;
+}
+
+.delete {
+    clear: both;
+    font-family: 'Champagne', Times, serif;
+    color: darkgrey;
+    height: auto;
+    width: 10%;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 88%;
+    margin-top: -12%;
+    z-index: 150;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.Read {
+    color: black;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid thin lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    float:left;
+}
+
+.Unread {
+    background-color: #8F8FBC;
+    color: black;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid thin lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    float:left;
+}
+
+
+.imgid {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.message_time {
+    text-align: right;
+}
+
+
+.chat_container {
+    clear:both;
+    margin: 8px;
+    height: 70%;
+    padding: 5px;
+    overflow: auto; /* Enable scroll if needed */
+}
+
+div.inbox {
+    border: 0px;
+    border-color: lightgray;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 5%;
+    
+}
+
+/* The Modal (background) */
+.message_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.message_modal-content {
+    background-color: #fff;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 30px;
+}
+
+.message_close {
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.message_close:hover,
+.message_close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.xcontainer {
+    text-align: center;
+    margin: 24px 0 24px 0;
+    position: relative;
+    margin-left: 89%;
+    margin-top: 1%;
+    z-index: 150;
+}
+
+.sender {
+    width:100%;
+    height: auto;
+    padding-bottom: 2px;
+    float:left;
+    text-align: center;
+    margin-top: -4%;
+    border-bottom: thin solid lightgrey
+}
+
+.sendmessage_btn {
+    background-color: #61E1B6;
+    font-family: 'Champagne', Times, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 10px;
+    border: none;
+    /* Shape of mouse cursor is pointer*/
+    cursor: pointer;
+    width: 12%;
+    height: 5%;
+    float: right;
+    border-radius: 3%;
+    margin-top: 2%;
+}
+
+.new_message_block {
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+#message_input {
+    font-size: 15px;
+    margin-right: 1%;
+    width: 100%;
+}

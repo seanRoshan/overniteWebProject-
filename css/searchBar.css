@@ -1,0 +1,60 @@
+/* Live Search Code */
+
+/* Formatting search box */
+    .search-box{
+        width: 500px;
+        display: inline-block;
+		position: relative;
+        font-size: .5em;
+        border-color:white;
+        border-left-color: darkgrey;
+        
+        z-index: 1;
+    }
+    
+    .search-box input[type="search"]:focus {
+        outline: none;
+    }
+	
+	.search-box input[type="search"]{
+	    width: 500px;
+        height: 100%;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 2.5em;
+        border-color: white;
+        border-left-color: darkgrey; 
+	}
+
+	.result{
+        position: fixed;        
+        z-index: 999;
+        width: 500px;
+        left: 75px;
+        font-size: 2em;
+        background-color: white;
+        border-color: darkgrey;
+    }
+    .search-box input[type="search"], .result{
+        box-sizing: border-box;
+    }
+    /* Formatting result items 
+    text-align: center;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        margin-right: 10px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 21;
+        overflow: visible;*/
+    .result p{
+        margin: 0;
+        padding: 7px 10px;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        cursor: pointer;
+    }
+    .result p:hover{
+        background: #f2f2f2;
+    }

@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@font-face
+{
+    font-family: timeBurner;
+    src: url('TIMEBURNERNORMAL.TTF');
+}
+    
+@font-face
+{
+    font-family: AlwaysInMyHeart;
+    src: url('ALWAYS-IN-MY-HEART.REGULAR.TTF');
+}
+    
+@font-face
+{
+    font-family: Champagne;
+    src: url('CHAMPAGNE & LIMOUSINES.TTF');
+}
+    
+@font-face
+{
+    font-family: Abeakrg;
+    src: url('ABEAKRG.TTF');
+}
+
+.booking-Node {
+    width: 33%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: inline-block;
+}
+
+.booking-Node-People {
+    width: 25%;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: inline-block;
+}
+
+#text-Title {
+     padding: 5px 5px;
+     font-family: 'Champagne', Times, serif;
+     font-size: 1.25em;
+}
+
+#text-Rent {
+     padding: 0px 5px;
+     font-family: 'Champagne', Times, serif;
+     font-size: 1em;
+}
+
+#text-Desc {
+     padding: 5px 10px;
+     white-space:normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 4em;
+  line-height: 1.25em;
+  font-family: 'Champagne', Times, serif;
+}
+
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space:nowrap;
+    overflow-y:hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+}

@@ -1,0 +1,105 @@
+.pwbox {
+    margin-top: 8%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: auto;
+    -webkit-box-shadow: 0 0 6px #8F8FBC;
+	-moz-box-shadow: 0 0 6px #8F8FBC;
+	box-shadow: 0 0 6px #8F8FBC;
+  
+}
+
+.tab {
+  display: none;
+}
+
+.valid { 
+    color: green;
+} 
+
+.valid:before { 
+    position: relative; 
+    left: -5px; 
+    top: 5px;
+    content: url("https://png.icons8.com/checked/color/20/000000");
+} 
+
+.invalid { 
+    color: red;
+} 
+
+.invalid:before { 
+    position: relative; 
+    left: -5px;
+    top: 5px;
+    content: url("https://png.icons8.com/cancel/color/20/e74c3c");
+}
+
+.invalidInput { 
+    background: url('https://png.icons8.com/cancel/color/20/e74c3c');
+    background-size: 20px; 
+    background-repeat: no-repeat; 
+    background-position: 95%; 
+    /*background-color: pink;*/
+} 
+
+input[type=email], input[type=password] {
+    width: 94%;
+    padding: 12px 20px;
+    margin: 3%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="text"]:valid, #psw:valid, input[type="email"]:valid, .validInput { 
+    background: url('https://png.icons8.com/checked/color/20/000000');
+    background-size: 20px; 
+    background-repeat: no-repeat; 
+    background-position: 95%; 
+}
+
+label {
+    padding: 12px 20px;
+}
+
+
+h3, p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#pwbtn, #changebtn {
+    background-color: #61E1B6;
+    color: white;
+    font-family:'Champagne', Times, serif;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border: none;
+    /* Shape of mouse cursor is pointer*/
+    cursor: pointer;
+    width: 50%;
+    height: 4%;
+}
+
+#nextBtn {
+    background-color: darkgrey;
+    color: white;
+    font-family:'Champagne', Times, serif;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    border: none;
+    /* Shape of mouse cursor is pointer*/
+    cursor: pointer;
+    width: 20%;
+    height: 4%;
+}
+
+#pwbtn:hover {
+    opacity: 0.8;
+}
