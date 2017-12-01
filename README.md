@@ -24,8 +24,8 @@ The overnite is a dynamic website to help customers to  find adventures in faraw
 
 # Collaborators #
 
-1. [SHAHRIYAR VALIELAHIROSHAN](http://shahriyar.us)
-1. CSS3
-1. JAVASCRIPT
-1. JQUERY 3.2.1
-1. PHP5.4
+1. [Shahriyar ValielahiRoshan](http://shahriyar.us)
+1. [Melissa Castillo](https://bitbucket.org/meljaaa/)
+1. [Tia Moore](https://bitbucket.org/tiamoore/)
+1. [Monica Moreno](https://bitbucket.org/monica_moreno/)
+1. [Jeremy Chan](https://bitbucket.org/jchan107/)
